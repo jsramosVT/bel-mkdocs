@@ -1,6 +1,6 @@
 # Welcome to MkDocs
 
-![Image title](/assets/eggplot.png)
+![Image title](../../assets/eggplot.png)
 
 ## Commands
 
