@@ -1,6 +1,30 @@
-site_name: My Docs
+site_name: Documentation Mock-up
 site_url: https://jsramosvt.github.io/bel-mkdocs/
 theme:
   name: material
+  icon:
+    annotation: material/arrow-right-circle
   features:
     - navigation.tabs
+    - content.code.copy
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - footnotes
+
+# # Page tree
+# nav:
+#   - Home: index.md
+#   - Molecular Dynamics (MD):
+#     -
