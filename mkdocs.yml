@@ -23,9 +23,8 @@ markdown_extensions:
   - pymdownx.details
   - footnotes
   - md_in_html
-
-# # Page tree
-# nav:
-#   - Home: index.md
-#   - Molecular Dynamics (MD):
-#     -
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde

@@ -1,4 +1,4 @@
-# Miscellaneous functions
+# Miscellaneous
 
 Annotations (1) differ from footnotes[^1] and can be used to add lil notes.
 { .annotate }
