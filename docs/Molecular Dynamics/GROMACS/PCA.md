@@ -51,6 +51,7 @@ Since covariance analysis is performed on the protein backbone, you will need to
 
 To generate a backbone-only XTC file:
 
+To generate a backbone-only XTC file:
 ```
 gmx trjconv -s topology.tpr -f all_cat.xtc -o all_cat_backbone.xtc
 ```
@@ -62,7 +63,6 @@ Select backbone when prompted.
 The topology (.tpr) and trajectory (.xtc) files MUST match in atom count, otherwise you will get a fatal error when trying to run `gmx covar`.
 
 To guarantee a match, create a backbone-only TPR file:
-
 ```
 gmx convert-tpr -s topology.tpr -o backbone.tpr
 ```
