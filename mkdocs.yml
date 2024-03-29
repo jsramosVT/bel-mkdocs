@@ -6,6 +6,7 @@ theme:
     annotation: material/arrow-right-circle
   features:
     - navigation.tabs
+    - navigation.indexes
     - content.code.copy
 markdown_extensions:
   - pymdownx.highlight:
